@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> <head> <style>
+.flex-container {
+display: flex; flex-direction:row;
+background-color: red;
+}
+.flex-container > div { /*div children of the flex
+container*/
+background-color: #f1f1f1;
+margin: 10px; padding: 20px; font-size: 30px;
+}
+/* Responsive layout */
+@media (max-width: 700px) {
+.flex-container {
+flex-direction: column;
+}
+}
+</style></head>
